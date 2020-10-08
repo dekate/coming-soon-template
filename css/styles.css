@@ -549,7 +549,7 @@ footer a:hover {
 }
 
 .bg-overlay {
-	background: url(img/bg-overlay.png) repeat left top;
+	background: url(../img/bg-overlay.png) repeat left top;
 	opacity: 0.6;
 	position: fixed;
 	height: 100%;
