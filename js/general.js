@@ -1,5 +1,5 @@
 //enter the count down date using the format year, month, day, time:time
-$(".count-down").ccountdown(2021,09,01,'00:01');
+$(".count-down").ccountdown(2022,01,01,'00:01');
 
 // Utilizing the Modernizr object created to implement placeholder functionality
 function hasPlaceholderSupport() {
