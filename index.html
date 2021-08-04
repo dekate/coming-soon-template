@@ -97,7 +97,7 @@
     <!-- Social icons end here -->
     <!-- Footer start here -->
     <footer class="fade-down">
-        <p>&copy; 2020. PT. Dadi Keluarga Teknologi (<a href="https://dekate.id">DEKATE.ID</a>)</p>
+        <p>&copy; <span id="year">2020</span>. PT. Dadi Keluarga Teknologi (<a href="https://dekate.id">DEKATE.ID</a>)</p>
         <p><span>Photo by <a href="https://unsplash.com/@omarlopez1?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Omar Lopez</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
     </footer>
     <!-- Footer end here -->
@@ -140,12 +140,12 @@
         <h3>Contact DEKATE</h3>
         <div class="clearfix cnt-wrap">
           <div class="col-md-6 col-sm-6">      
-            <i class="fa fa-envelope-o"></i>
+            <a href="mailto:inquiry@dekate.id"><i class="fa fa-envelope-o"></i></a>
             <h4>Email</h4>
-            <p>inquiry@dekate.id<br />hello@dekate.id<br />help@dekate.id</p>
+            <p><a href="mailto:inquiry@dekate.id">inquiry@dekate.id</a><br /><a href="mailto:hello@dekate.id">hello@dekate.id</a><br /><a href="mailto:help@dekate.id">help@dekate.id</a></p>
           </div>
           <div class="col-md-6 col-sm-6">
-            <i class="fa fa-map-marker"></i>
+            <a href="https://rsdkc.id/dekatemaps"><i class="fa fa-map-marker"></i></a>
             <h4>Address</h4>
             <p>Jl. Sarijadi Raya No.29, <br>
               Bandung. West Java <br>
@@ -170,6 +170,7 @@
       $('#preloader').delay(350).fadeOut('slow');
       $('body').delay(350).css({'overflow':'visible'});
     })
+    document.getElementById("year").innerHTML = new Date().getFullYear();
   </script> 
   <script src="js/jquery.knob.js"></script>
   <script src="js/jquery.ccountdown.js"></script>
